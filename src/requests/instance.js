@@ -5,7 +5,7 @@ axios.defaults.withCredentials = true
 
 const instance = axios.create({
   
-    baseURL: "http://localhost:5000",
+    baseURL: "https://flub-server.herokuapp.com/",
 })
 
 export default instance
