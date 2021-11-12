@@ -19,7 +19,7 @@ const About = () => {
     const callAboutPage = async () => {
         try {
 
-            const res = await fetch('https://flub-server.herokuapp.com//about', {
+            const res = await fetch('https://flub-server.herokuapp.com/about', {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
